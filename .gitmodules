@@ -22,3 +22,6 @@
 [submodule ".vim/bundle/vim-seek"]
 	path = .vim/bundle/vim-seek
 	url = https://github.com/goldfeld/vim-seek
+[submodule ".vim/bundle/vim-trailing-whitespace"]
+	path = .vim/bundle/vim-trailing-whitespace
+	url = https://github.com/bronson/vim-trailing-whitespace
