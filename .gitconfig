@@ -1,0 +1,12 @@
+[user]
+	email = karol.marcjan@gmail.com
+	name = Karol Marcjan
+[push]
+	default = simple
+[alias]
+	logg = log --oneline --decorate
+	logt = log master~1.. --oneline --decorate
+	logl = log origin/master~1.. --oneline --decorate
+	ff = merge --ff-only
+[core]
+	editor = vim
