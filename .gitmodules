@@ -1,3 +1,6 @@
 [submodule ".vim/bundle/ctrlp.vim"]
 	path = .vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim
+[submodule ".vim/bundle/easytree.vim"]
+	path = .vim/bundle/easytree.vim
+	url = https://github.com/troydm/easytree.vim/
