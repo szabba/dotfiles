@@ -40,10 +40,6 @@ export TERM
 EDITOR='vim'
 export EDITOR
 
-# Vim RC file position
-VIMINIT='so ~/.vim/vimrc'
-export VIMINIT
-
 # NDK
 PATH=/opt/android-ndk:/opt/android-sdk/tools:/opt/android-sdk/platform-tools:$PATH
 PATH=/opt/android-ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin:$PATH
