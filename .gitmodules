@@ -25,3 +25,9 @@
 [submodule ".vim/bundle/vim-trailing-whitespace"]
 	path = .vim/bundle/vim-trailing-whitespace
 	url = https://github.com/bronson/vim-trailing-whitespace
+[submodule ".vim/bundle/vim-indent-object"]
+	path = .vim/bundle/vim-indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object
+[submodule ".vim/bundle/vim-indentblank"]
+	path = .vim/bundle/vim-indentblank
+	url = https://github.com/deuiore/vim-indentblank/
