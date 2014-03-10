@@ -31,3 +31,6 @@
 [submodule ".vim/bundle/vim-indentblank"]
 	path = .vim/bundle/vim-indentblank
 	url = https://github.com/deuiore/vim-indentblank/
+[submodule ".vim/bundle/vim-glsl"]
+	path = .vim/bundle/vim-glsl
+	url = https://github.com/tikhomirov/vim-glsl
