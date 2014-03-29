@@ -64,7 +64,10 @@ done
 compctl -g "*.go" gofmt
 
 compctl -g "*.go" gccgo
-GOPATH=~/.go
+export GOPATH=~/.go
+
+export PATH=$HOME/.go/bin:$PATH
+
 
 ### OPAM configuration
 ##. /home/karol/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
