@@ -1,4 +1,3 @@
-set formatoptions+=a
 set textwidth=72
 
 set smartindent
