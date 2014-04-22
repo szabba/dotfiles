@@ -1,5 +1,7 @@
 execute pathogen#infect()
 
+set nowrap
+
 set guioptions=mi
 colorscheme solarized
 
