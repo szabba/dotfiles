@@ -43,3 +43,6 @@
 [submodule ".vim/bundle/vim-niji"]
 	path = .vim/bundle/vim-niji
 	url = git@github.com:szabba/vim-niji.git
+[submodule ".vim/bundle/vimroom"]
+	path = .vim/bundle/vimroom
+	url = https://github.com/mikewest/vimroom/
