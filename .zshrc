@@ -71,4 +71,4 @@ export PATH=$HOME/.go/bin:$PATH
 
 ### OPAM configuration
 ##. /home/karol/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
-##eval `opam config env`
+eval `opam config env`
