@@ -49,3 +49,6 @@
 [submodule ".vim/bundle/vimbufsync"]
 	path = .vim/bundle/vimbufsync
 	url = https://github.com/def-lkb/vimbufsync
+[submodule ".vim/bundle/coquille"]
+	path = .vim/bundle/coquille
+	url = https://github.com/the-lambda-church/coquille
