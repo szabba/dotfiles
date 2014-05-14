@@ -2,8 +2,7 @@ execute pathogen#infect()
 
 set nowrap
 
-set guioptions=mi
-colorscheme solarized
+colorscheme molokai
 
 syntax on
 filetype plugin indent on
