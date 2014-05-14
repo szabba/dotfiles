@@ -52,3 +52,6 @@
 [submodule ".vim/bundle/coquille"]
 	path = .vim/bundle/coquille
 	url = https://github.com/the-lambda-church/coquille
+[submodule ".vim/bundle/vim-colorschemes"]
+	path = .vim/bundle/vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes
