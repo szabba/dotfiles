@@ -11,3 +11,5 @@
 	ff = merge --ff-only
 [core]
 	editor = vim
+[diff]
+	algorithm = patience
