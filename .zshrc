@@ -31,15 +31,13 @@ bindkey -e
 # FIXME: Check out what this did
 setopt interactivecomments
 
-# Prompt with git branch
-git_prompt() {
- ref=$(git symbolic-ref HEAD | cut -d'/' -f3)
- echo $ref
-}
+# Prompt with vcs information
+autoload -Uz vcs_info
+precmd () { vcs_info }
 setopt prompt_subst
 
-PS1='%F{yellow}[%F{blue}%n%F{red}@%F{green}%m %F{yellow}%D %F{magenta}$(git_prompt) %F{yellow}%T %F{magenta}%2~%F{yellow}]> %F{white}'
-PS2='%F{yellow}[%F{blue}%n%F{red}@%F{green}%m %F{yellow}%D %F{magenta}$(git_prompt) %F{yellow}%T %F{magenta}%2~%F{yellow}]  %F{white}'
+PS1='%F{yellow}[%F{blue}%n%F{red}@%F{green}%m %F{yellow}%D%F{green}$vcs_info_msg_0_ %F{yellow}%T %F{magenta}%2~%F{yellow}]> %F{white}'
+PS2='%F{yellow}[%F{blue}%n%F{red}@%F{green}%m %F{yellow}%D%F{green}$vcs_info_msg_0_ %F{yellow}%T %F{magenta}%2~%F{yellow}]  %F{white}'
 
 autoload -U promptinit
 promptinit
