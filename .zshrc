@@ -31,8 +31,18 @@ bindkey -e
 # FIXME: Check out what this did
 setopt interactivecomments
 
-PS1='%F{yellow}[%F{blue}%n%F{red}@%F{green}%m %F{yellow}%D %T %F{magenta}%2~%F{yellow}]> %F{white}'
-PS2='%F{yellow}[%F{blue}%n%F{red}@%F{green}%m %F{yellow}%D %T %F{magenta}%2~%F{yellow}]  %F{white}'
+# Prompt with git branch
+git_prompt() {
+ ref=$(git symbolic-ref HEAD | cut -d'/' -f3)
+ echo $ref
+}
+setopt prompt_subst
+
+PS1='%F{yellow}[%F{blue}%n%F{red}@%F{green}%m %F{yellow}%D %F{magenta}$(git_prompt) %F{yellow}%T %F{magenta}%2~%F{yellow}]> %F{white}'
+PS2='%F{yellow}[%F{blue}%n%F{red}@%F{green}%m %F{yellow}%D %F{magenta}$(git_prompt) %F{yellow}%T %F{magenta}%2~%F{yellow}]  %F{white}'
+
+autoload -U promptinit
+promptinit
 
 TERM='xterm-256color'
 export TERM
