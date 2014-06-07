@@ -37,9 +37,6 @@
 [submodule ".vim/bundle/file-line"]
 	path = .vim/bundle/file-line
 	url = https://github.com/bogado/file-line
-[submodule ".vim/bundle/vim-golang"]
-	path = .vim/bundle/vim-golang
-	url = git@github.com:jnwhiteh/vim-golang.git
 [submodule ".vim/bundle/vim-niji"]
 	path = .vim/bundle/vim-niji
 	url = git@github.com:szabba/vim-niji.git
@@ -58,3 +55,6 @@
 [submodule ".vim/bundle/lightline.vim"]
 	path = .vim/bundle/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
+[submodule ".vim/bundle/vim-go"]
+	path = .vim/bundle/vim-go
+	url = https://github.com/fatih/vim-go
