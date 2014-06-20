@@ -21,4 +21,4 @@ map <F2> :GundoToggle<CR>
 map <F3> :FixWhitespace<CR>:write<CR>
 
 " Pantondoc
-let g:pandoc#formatting#mode=ha
+let g:pandoc#formatting#mode='ha'
