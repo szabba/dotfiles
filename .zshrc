@@ -52,7 +52,7 @@ export EDITOR
 PATH=/opt/android-ndk:/opt/android-sdk/tools:/opt/android-sdk/platform-tools:$PATH
 PATH=/opt/android-ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin:$PATH
 
-PATH=.:$HOME/.bin:$HOME/.local/bin:$HOME/.gem/ruby/2.0.0/bin:$HOME/.cabal/bin:$PATH
+PATH=.:$HOME/.bin:$HOME/.local/bin:$HOME/.gem/ruby/2.1.0/bin:$HOME/.cabal/bin:$PATH
 export PATH
 
 # Python docs
