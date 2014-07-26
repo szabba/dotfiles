@@ -64,3 +64,6 @@
 [submodule ".vim/bundle/vim-pantondoc"]
 	path = .vim/bundle/vim-pantondoc
 	url = https://github.com/vim-pandoc/vim-pantondoc
+[submodule "Code/Shellshock"]
+	path = Code/Shellshock
+	url = https://github.com/daniel-middleton/Shellshock
