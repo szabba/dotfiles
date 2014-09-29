@@ -1,5 +1,6 @@
 execute pathogen#infect()
 
+set laststatus=2
 set nowrap
 
 colorscheme molokai
