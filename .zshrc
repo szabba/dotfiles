@@ -42,41 +42,7 @@ PS2='%F{yellow}[%F{blue}%n%F{red}@%F{green}%m %F{yellow}%D%F{green}$vcs_info_msg
 autoload -U promptinit
 promptinit
 
-TERM='xterm-256color'
-export TERM
-
-EDITOR='vim'
-export EDITOR
-
-# NDK
-PATH=/opt/android-ndk:/opt/android-sdk/tools:/opt/android-sdk/platform-tools:$PATH
-PATH=/opt/android-ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin:$PATH
-
-PATH=.:$HOME/.bin:$HOME/.local/bin:$HOME/.gem/ruby/2.1.0/bin:$HOME/.cabal/bin:$PATH
-export PATH
-
-# Python docs
-export PYTHONDOCS=/usr/share/doc/python2/html/
-
-# Aliases
-alias -r RR="R --no-restore --no-save"
-alias -r chibi="chibi-scheme -mchibi.repl -e '(repl)'"
-
-# Go stuff # FIXME: possibly outdated
-prefixes=(5 6 8)
-for p in $prefixes; do
-	compctl -g "*.${p}" ${p}l
-	compctl -g "*.go" ${p}g
-done
-
-compctl -g "*.go" gofmt
-
-compctl -g "*.go" gccgo
-export GOPATH=~/.go
-
-export PATH=$HOME/.go/bin:$PATH
-
-
-### OPAM configuration
-##. /home/karol/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
-eval `opam config env`
+# Launch function
+function launch {
+	{ $1 &> /dev/null & } &
+}
