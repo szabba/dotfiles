@@ -31,6 +31,9 @@ bindkey -e
 # FIXME: Check out what this did
 setopt interactivecomments
 
+# No more rehashing the $PATH's contents
+setopt nohashdirs
+
 # Prompt with vcs information
 autoload -Uz vcs_info
 precmd () { vcs_info }
