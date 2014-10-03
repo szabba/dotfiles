@@ -15,6 +15,6 @@ path=($HOME/.go/bin $path)
 path=($HOME/.local/bin $path)
 path=($HOME/.bin $path)
 
-### OPAM configuration
-##. /home/karol/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
-#eval `opam config env`
+## OPAM configuration
+#. /home/karol/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+eval `opam config env`
