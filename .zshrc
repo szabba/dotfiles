@@ -47,5 +47,5 @@ promptinit
 
 # Launch function
 function launch {
-	{ $1 &> /dev/null & } &
+	{ $@ &> /dev/null & } &
 }
