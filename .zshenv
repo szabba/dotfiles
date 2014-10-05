@@ -2,8 +2,6 @@ export PYTHONDOCS=/usr/share/doc/python2/html/
 
 export GOPATH=~/.go
 
-export TERM='xterm-256color'
-
 export EDITOR='vim'
 
 typeset -U path
