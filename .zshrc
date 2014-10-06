@@ -39,8 +39,12 @@ autoload -Uz vcs_info
 precmd () { vcs_info }
 setopt prompt_subst
 
-PS1='%F{yellow}[%F{blue}%n%F{red}@%F{green}%m %F{yellow}%D%F{green}$vcs_info_msg_0_ %F{yellow}%T %F{magenta}%2~%F{yellow}]> %F{white}'
-PS2='%F{yellow}[%F{blue}%n%F{red}@%F{green}%m %F{yellow}%D%F{green}$vcs_info_msg_0_ %F{yellow}%T %F{magenta}%2~%F{yellow}]  %F{white}'
+PS1=\
+"%F{yellow}+--[ user: %F{green}%n %F{yellow}][ host: %F{red}%m %F{yellow}]
++--[ pwd: %F{magenta}%2~ %F{yellow}]
+|
+|> %F{white}"
+PS2="%F{yellow}|. %F{white}"
 
 autoload -U promptinit
 promptinit
