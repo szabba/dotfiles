@@ -67,3 +67,6 @@
 [submodule "Code/Shellshock"]
 	path = Code/Shellshock
 	url = https://github.com/daniel-middleton/Shellshock
+[submodule ".vim/bundle/vim-autopep8"]
+	path = .vim/bundle/vim-autopep8
+	url = https://github.com/tell-k/vim-autopep8.git
