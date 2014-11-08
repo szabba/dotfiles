@@ -41,7 +41,7 @@
 	path = .vim/bundle/vim-niji
 	url = git@github.com:szabba/vim-niji.git
 [submodule ".vim/bundle/vimroom"]
-	path = .vim/bundle/vimroom
+	path = .vim/unbundle/vimroom
 	url = https://github.com/mikewest/vimroom/
 [submodule ".vim/bundle/vimbufsync"]
 	path = .vim/bundle/vimbufsync
