@@ -1,5 +1,9 @@
 execute pathogen#infect()
 
+set mouse=
+set nomousefocus
+set mousehide
+
 set laststatus=2
 set nowrap
 
