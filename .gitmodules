@@ -52,3 +52,6 @@
 [submodule ".vim/bundle/goyo.vim"]
 	path = .vim/bundle/goyo.vim
 	url = git@github.com:junegunn/goyo.vim.git
+[submodule ".vim/bundle/molokai"]
+	path = .vim/bundle/molokai
+	url = git@github.com:tomasr/molokai.git
