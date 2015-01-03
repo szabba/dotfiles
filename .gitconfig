@@ -6,6 +6,7 @@
 [alias]
 	logg = log --oneline --decorate
 	logs = log --oneline --decorate -10
+	logm = log --oneline --decorate master
 	logt = log master~1.. --oneline --decorate
 	logl = log origin/master~1.. --oneline --decorate
 	ff = merge --ff-only
