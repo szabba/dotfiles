@@ -1,6 +1,6 @@
 export PYTHONDOCS=/usr/share/doc/python2/html/
 
-export GOPATH=~/.go
+export GOPATH=$HOME
 
 export EDITOR='vim'
 
@@ -9,7 +9,7 @@ typeset -U path
 path=($HOME/Downloads/k/bin $path)
 path=($HOME/.cabal/bin $path)
 path=($HOME/.gem/ruby/2.1.0/bin $path)
-path=($HOME/.go/bin $path)
+path=($GOPATH/bin $path)
 path=($HOME/.local/bin $path)
 path=($HOME/.bin $path)
 
