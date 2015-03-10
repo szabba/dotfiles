@@ -61,3 +61,6 @@
 [submodule ".vim/bundle/lexima.vim"]
 	path = .vim/bundle/lexima.vim
 	url = https://github.com/cohama/lexima.vim
+[submodule ".vim/bundle/rust.vim"]
+	path = .vim/bundle/rust.vim
+	url = https://github.com/wting/rust.vim
