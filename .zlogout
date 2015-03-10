@@ -1,2 +1,2 @@
-ruby ~/Code/Shellshock/shellshock.rb
+ruby ~/src/Shellshock/shellshock.rb
 sleep 1
