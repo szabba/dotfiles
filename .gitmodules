@@ -58,3 +58,6 @@
 [submodule "src/Shellshock"]
 	path = src/Shellshock
 	url = https://github.com/daniel-middleton/Shellshock
+[submodule ".vim/bundle/lexima.vim"]
+	path = .vim/bundle/lexima.vim
+	url = https://github.com/cohama/lexima.vim
