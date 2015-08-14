@@ -53,9 +53,3 @@ promptinit
 function launch {
 	{ $@ &> /dev/null & } &
 }
-
-# Launch dvtm if not already in it
-if [[ ! ( $TERM =~ '^dvtm' ) ]]
-then
-	exec dvtm-status -M
-fi
