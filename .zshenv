@@ -1,6 +1,7 @@
 export PYTHONDOCS=/usr/share/doc/python2/html/
 
 export GOPATH=$HOME
+export GO15VENDOREXPERIMENT=1
 
 export EDITOR='vim'
 
