@@ -79,3 +79,6 @@
 [submodule ".vim/bundle/vim-scalariform"]
 	path = .vim/bundle/vim-scalariform
 	url = https://github.com/rompetroll/vim-scalariform
+[submodule ".vim/bundle/vim-flake8"]
+	path = .vim/bundle/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git
