@@ -14,3 +14,5 @@
 	editor = vim
 [diff]
 	algorithm = patience
+[branch]
+	autosetuprebase = always
